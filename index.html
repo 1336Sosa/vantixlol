@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1>Welcome to My Portfolio</h1>
+                <p>C++ Developer</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div class="profile-image">
+                    <img src="https://cdn.discordapp.com/attachments/1351559401151926293/1428935926125428836/Frame_1.png?ex=68f44fc9&is=68f2fe49&hm=72b7b3aa82ee236802314ebf66e2286b91a31c18af19640406c949e6a3a4416e&" alt="Profile Picture" id="profile-pic">
+                </div>
+                <div class="about-text">
+                    <p>Hi! I'm a passionate developer with experience in various technologies. I love creating beautiful and functional web applications that solve real-world problems.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>My Experience</h2>
+            <div class="experience-container" id="experience-container">
+                <!-- Experience boxes will be added by JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Get In Touch</h2>
+            <div class="social-links" id="social-links">
+                <!-- Social media links will be added by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
